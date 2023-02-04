@@ -1,0 +1,80 @@
+\documentclass[romanian,12pt,a4paper]{article}
+
+\title{Generator procedural de obiecte 3D}
+\author{Andrei N. Onea}
+\date{Februarie 2023}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage[toc]{appendix}
+\usepackage{multirow}
+\usepackage[sorting=none]{biblatex}
+\usepackage{csquotes}
+\addbibresource{src/bib/main.bib}
+
+\linespread{1.2}
+
+\begin{document}
+
+	\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+	\begin{titlepage}
+
+		\centering
+		\vspace*{-2cm}
+		\includegraphics[width=0.5\textwidth]{src/img/logo.png}\par
+		\vspace{0.15cm}
+		{\scshape Facultatea de Automatică și Calculatoare \par}
+		\vspace{3cm}
+		{\huge\scshape Generator procedural de obiecte 3D \par}
+		\vspace{1cm}
+		{\scshape Lucrare de masterat \par}
+		\vspace{0.15cm}
+		{rev 0.1 \par}
+		\vfill
+
+		\makebox[\textwidth][c]{
+			\centering
+			\begin{tabular}{P{0.5\textwidth} P{0.5\textwidth}}
+				\textit{Coordonator}
+				&
+				\textit{Autor}
+				\\
+				Dr. Vice Decan Alin \scshape Moldoveanu
+				&
+				Andrei-Nicolae \scshape Onea
+			\end{tabular}
+		}
+		\vfill
+
+		{\small Februarie 2023 \par}
+
+	\end{titlepage}
+
+	\begin{abstract}
+		Ceva informație aici...
+	\end{abstract}
+
+	\pagebreak
+
+	\section*{Mulțumiri}
+
+		Aș vrea să mulțumesc în primul rând părinților mei pentru tot sprijinul și sfaturile lor, dar mai ales pentru că m-au suportat în perioada aceasta de studii. Nu au învățat nimic din precedentele...
+
+	\pagebreak
+
+	\tableofcontents
+
+	\clearpage
+
+	\printbibliography
+
+\end{document}
